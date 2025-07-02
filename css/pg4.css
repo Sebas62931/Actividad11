@@ -1,0 +1,42 @@
+#recuadro1 {
+    transform: skew(15deg, 0deg);
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#recuadro2 {
+    transform: skew(0deg, 15deg);
+    border-radius: 20px;
+    background-color: #aa0;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#recuadro3 {
+    transform: skew(15deg, 15deg);
+    border-radius: 20px;
+    background-color: #f382ea;
+    width: 200px;
+    padding: 10px;
+}
+#recuadro1 h3, #recuadro2 h3, #recuadro3 h3 {
+    text-align: center;
+}
+#recuadro1 p, #recuadro2 p, #recuadro3 p {
+    text-align: justify;
+}
+body {
+    background: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #192dda;
+}

@@ -1,0 +1,40 @@
+#recuadro1 {
+    border-radius: 20px;
+    background-color: #2130ff;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+            
+}
+#recuadro1:hover {
+    width: 300px;
+}
+#recuadro2 {
+    border-radius: 20px;
+    background-color: yellow;
+    width: 200px;
+    padding: 10px;
+}   
+#recuadro2:hover {
+    width: 300px;
+}
+#recuadro1 h3, #recuadro2 h3 {
+    text-align: center;
+}
+#recuadro1 p, #recuadro2 p {
+    text-align: justify;
+}
+body {
+    background: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #192dda;
+}

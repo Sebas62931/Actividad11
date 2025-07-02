@@ -1,0 +1,40 @@
+#recuadro1{
+            transform: rotate(10deg);
+            transform-origin: left top;
+            border-radius: 20px;
+            background-color: #ddd;
+            width: 200px;
+            padding: 10px;
+        }
+        #recuadro2{
+            transform: rotate(10deg);
+            transform-origin: 0% 50%;
+            border-radius: 20px;
+            background-color: #aa0;
+            width: 200px;
+            padding: 10px;
+            margin-top: 50px;
+        }
+        #recuadro3{
+            transform: rotate(10deg);
+            transform-origin: 20% 40%;
+            border-radius: 20px;
+            background-color: #1018ff;
+            color: white;
+            width: 200px;
+            padding: 10px;
+            margin-top: 50px;
+        }
+        body {
+            background: white;
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        a {
+            margin-top: 55px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #192dda;
+        }

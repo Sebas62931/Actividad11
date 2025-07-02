@@ -1,0 +1,36 @@
+#recuadro1 {
+    transform: rotate(45deg);
+    border-radius: 20px;
+    background-color: #9405bb;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#recuadro2 {
+    transform: rotate(-45deg);
+    border-radius: 20px;
+    background-color: #ff2c99;
+    color: white;
+    width: 200px;
+    padding: 10px;
+}
+#recuadro1 h3, #recuadro2 h3 {
+    text-align: center;
+}
+#recuadro1 p, #recuadro2 p {
+    text-align: justify;
+}
+body {
+    background: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    margin-top: 70px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #192dda;
+}
